@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.fondopagina {
+	background-color: rgba(255, 255, 255, 0.918);
+}
+
+.encabezado {
+	background-color: #fff7ed;
+	width: 100%;
+	padding: 20px 60px;
+	margin: 0;
+	border: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+#logotexto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+#TITULOPRINCIPAL {
+	text-align: center;
+	white-space: nowrap;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.E {
+	color: #fb7185;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.PRO {
+	color: #fb7185;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.MENUDEOPCIONES {
+	background-color: transparent;
+	overflow: visible;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	border: none;
+	flex: 0 0 auto;
+}
+
+#opcion {
+	color: #ac1212;
+	list-style: none;
+	display: flex;
+	gap: 5px;
+	margin: 0;
+	padding: 0;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+#enlaces {
+	padding: 12px 18px;
+	display: inline-flex;
+	align-items: center;
+	color: #099c90;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+	border-radius: 4px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#enlaces:hover {
+	background-color: #F97316;
+	color: #121212;
+	transform: scale(1.05);
+	transition: all 0.3s ease;
+}
+
+.banner {
+	height: 500px;
+	background-image: url(img/banner.png);
+	background-size: cover;
+	background-position: center;
+}
